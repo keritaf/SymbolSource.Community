@@ -4,11 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>SymbolSource Server Basic</title>
+    <title>MGNZ SymbolSource Server Basic</title>
     <link rel="shortcut icon" href="/favicon.png" />
 </head>
 <body>
-    <h1>SymbolSource Server Basic</h1>
+    <h1>MGNZ SymbolSource Server Basic</h1>
     
     <p>@Html.ActionLink("Run self-diagnostics", "Diagnostics")</p>
 
@@ -26,10 +26,6 @@
     <h2>NuGet - Pushing packages</h2>
     <p>
         <code>nuget push *.symbols.nupkg 123 -Source </code><strong><code>@Model.NuGetPushUrl</code></strong>
-    </p>
-    <h2>OpenWrap - Repository URL</h2>
-    <p>
-        <strong><code>@Model.OpenWrapUrl</code></strong>
     </p>
 </body>
 </html>
