@@ -3,8 +3,16 @@
   <appSettings>
     <!-- 
             Path to Debugging Tools for Windows "srcsrv" folder
-        -->
-    <add key="SrcSrvPath" value="C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x64\srcsrv" />
+    -->
+    <add key="SrcSrvPath" value="C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x64\srcsrv\" />
+    <!-- 
+            Path to Data folder
+    -->
+    <add key="dataPath" value=""/>
+    <!-- 
+            Path to Index folder
+    -->
+    <add key="indexPath" value=""/>
   </appSettings>
 
   <elmah>
